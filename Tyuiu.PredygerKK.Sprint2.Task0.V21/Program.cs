@@ -10,6 +10,8 @@ namespace Tyuiu.PredygerKK.Sprint2.Task0.V21
 
             Console.Title = "Спринт #2 | Выполнил: Предыгер К.К. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #2                                                               *");
+            Console.WriteLine("* Тема: Операции сравнения                                                *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #21                                                             *");
             Console.WriteLine("* Выполнил: Предыгер Кирилл Константинович | ПКТб-24-1                    *");
