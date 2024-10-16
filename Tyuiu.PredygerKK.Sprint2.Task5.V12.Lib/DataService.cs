@@ -25,12 +25,8 @@ namespace Tyuiu.PredygerKK.Sprint2.Task5.V12.Lib
 
                 case 1:
                     if (a == 1) { m = 12; g -= 1; }
-                    else { m = m; }
                     break;
 
-                default:
-                    n = n;
-                    break;
             }
 
             if (m < 10 && n < 10) { return $"0{n}.0{m}.{g}"; }
