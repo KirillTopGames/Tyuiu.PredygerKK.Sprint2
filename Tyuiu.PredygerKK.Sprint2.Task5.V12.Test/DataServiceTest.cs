@@ -14,7 +14,7 @@ namespace Tyuiu.PredygerKK.Sprint2.Task5.V12.Test
             m = 1;
             n = 1;
 
-            Assert.AreEqual("1996.12.31", ds.FindDateOfPreviousDay(g, m, n));
+            Assert.AreEqual("31.12.1996", ds.FindDateOfPreviousDay(g, m, n));
         }
     }
 }
