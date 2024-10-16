@@ -6,7 +6,6 @@ namespace Tyuiu.PredygerKK.Sprint2.Task5.V12.Lib
     {
         public string FindDateOfPreviousDay(int g, int m, int n)
         {
-            string day, mounth, year;
             int a = n;
             switch (n)
             {
@@ -22,10 +21,6 @@ namespace Tyuiu.PredygerKK.Sprint2.Task5.V12.Lib
             {
                 case 2:
                     n -= 2;
-                    break;
-
-                case 4 or 6 or 9 or 11:
-                    n -= 1;
                     break;
 
                 case 1:
